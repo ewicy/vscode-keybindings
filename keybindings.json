@@ -1,0 +1,66 @@
+// Place your key bindings in this file to override the defaults
+[
+	{
+		"key": "alt+k",
+		"command": "editor.action.copyLinesUpAction",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "alt+j",
+		"command": "editor.action.copyLinesDownAction",
+		"when": "editorTextFocus && !editorReadonly"
+	},
+	{
+		"key": "alt+q",
+		"command": "peacock.changeColorToFavorite"
+	},
+	{
+		"key": "shift+alt+r",
+		"command": "revealFileInOS"
+	},
+	{
+		"key": "ctrl+n",
+		"command": "explorer.newFile",
+		"when": "explorerViewletFocus"
+	},
+	{
+		"key": "ctrl+shift+n",
+		"command": "explorer.newFolder",
+		"when": "explorerViewletFocus"
+	},
+	{
+		"key": "ctrl+k ctrl+0",
+		"command": "list.collapseAll",
+		"when": "explorerViewletFocus"
+	},
+	{
+		"key": "ctrl+k ctrl+`",
+		"command": "workbench.action.files.revert",
+		"when": "editorFocus"
+	},
+	{
+		"key": "ctrl+k ctrl+h",
+		"command": "editor.showCallHierarchy",
+		"when": "editorHasCallHierarchyProvider && editorTextFocus && !inReferenceSearchEditor"
+	},
+	{
+		"key": "shift+alt+h",
+		"command": "-references-view.showCallHierarchy",
+		"when": "editorHasCallHierarchyProvider"
+	},
+	{
+		"key": "ctrl+k ctrl+r",
+		"command": "editor.action.referenceSearch.trigger",
+		"when": "editorHasReferenceProvider && editorTextFocus"
+	},
+	// {
+  //   "key": "escape",
+  //   "command": "-extension.vim_escape",
+  //   "when": "editorTextFocus && vim.active && !inDebugRepl"
+  // },
+  // {
+  //   "key": "escape",
+  //   "command": "extension.vim_escape",
+  //   "when": "editorTextFocus && !inDebugRepl && !suggestWidgetVisible && !inlineSuggestionVisible"
+  // }
+]
